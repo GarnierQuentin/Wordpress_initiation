@@ -1,0 +1,74 @@
+.revetement_wrap{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    border: 2px solid grey;
+    background-color: white;
+    padding: 2%;
+}
+
+.revetement_card{
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
+
+.revetement_top {
+    display: flex;
+    gap: 3%;
+    font-size: 1.5vw;
+    justify-content: space-around;
+}
+
+.revetement_wrap:nth-child(2n) .revetement_top {
+    flex-direction: row-reverse;
+}
+
+.revetement_left{
+    display: flex;
+    align-items: center;
+}
+
+.revetement_left img{
+    /*width: 300px;*/
+    width: 75%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.revetement_wrap:nth-child(2n) .revetement_picture{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.revetement_right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33vw;
+}
+
+.revetement_more{
+    display: flex;
+    align-items: center;
+    width: 33vw;
+}
+
+.revetement_more a{
+    width: 10vw;
+    text-align: center;
+    background-color: rgb(41, 128, 99);
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2vw;
+    padding: 5%;
+    text-decoration: none;
+    color: white;
+}
+
+.revetement_details{
+    display: flex;
+    justify-content: space-around;
+}

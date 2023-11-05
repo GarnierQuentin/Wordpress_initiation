@@ -1,0 +1,50 @@
+.menu-toggle{
+    display: none;
+}
+
+.site-header{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: grey;
+    margin-bottom: 5%;
+}
+
+.site-header ul{ 
+    /* pour couvrir les réglages de bases */
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
+}
+
+.header-menu{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.header-menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw;
+}
+
+.header-menu a:hover{
+    color: blue;
+}
+
+.menu-item > .sub-menu{
+    display: none;
+}
+
+.menu-item:hover > .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: grey;
+}
+
+.sub-menu{
+    list-style: none;
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
+    padding-inline-start: 0rem;
+    padding: 1%;
+}

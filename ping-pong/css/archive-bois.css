@@ -1,0 +1,62 @@
+.bois_wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.bois_wrap{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    background-color: white;
+    border: 2px solid grey;
+    padding: 2%;
+}
+
+.bois_picture{
+    width: 200px;
+}
+
+.bois_picture img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.bois_left{
+    /*width: 35%;*/
+    display: flex;
+    align-items: center;
+}
+
+.bois_right{
+    /*width: 35%;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bois_card{
+    display: flex;
+}
+
+.bois_more a{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(41, 128, 99);
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5vw;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.bois_more a :visited{
+    color: white;
+}
