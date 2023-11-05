@@ -39,6 +39,10 @@ get_header();
                                 </div>
                             </div>
 
+							<?php
+							if ($dataRevetements != null) {
+							?>
+
                             <div class="revetement_bottom">
                                 <section class="revetement_infos">
                                     <h2>Informations sur le revêtement :</h2>
@@ -51,6 +55,7 @@ get_header();
                                     </div>
                                 </section>
                             </div>
+							<?php } ?>
                         </div>
                     </div>
 
